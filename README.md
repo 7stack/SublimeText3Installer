@@ -8,7 +8,9 @@ It's a little ugly, but... it works. I'm not any bash-scripting master on Linux.
 So, any comment, improvement or help is always welcome.
 
 ## USAGE:
-
+You can clone repo to any location 
 ```
-chmod +x ./stinstall && sudo ./stinstall
+git clone https://github.com/symmetricAlgo1/SublimeText3Installer.git
+chmod +x install.sh && sudo ./install.sh
+
 ```
