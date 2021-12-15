@@ -35,7 +35,7 @@ if [ -e ${PDIR} ]; then
 	sudo rm -rf ${PDIR}	
 fi
 
-if cp /opt/sublime_text/sublime_text.desktop /usr/share/applications/; then 
+if sudo cp /opt/sublime_text/sublime_text.desktop /usr/share/applications/; then 
      printf "\e[1;34mCongratulations Your sublime Text editor successfully install to\e[1;37m /opt/sublime_text\n"
      printf "\e[1;33mDesktop application shortcut successfully created to \e[1;37m/usr/share/applications/\ns"
 fi   
